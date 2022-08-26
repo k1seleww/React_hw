@@ -1,0 +1,114 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#root{
+    margin: 0 auto;
+}
+
+.header{
+    padding: 40px 25px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.searchField{
+    width: 500px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #87CEFA;
+    outline: 0;
+    padding-left: 30px;
+    margin-right: 20px;
+    background-color: #000000;
+}
+
+.ageFilter{
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 5px;
+    border: 1px solid #87CEFA;
+    height: 50px;
+    width: 200px;
+    appearance: none;
+    outline: 0;
+    background-image: url(../img/arrow_down.png);
+    background-repeat: no-repeat;
+    background-position: 170px 18px;
+    background-size: 15px;
+    margin-right: 5px;
+    padding-left: 15px;
+}
+
+.btnReset{
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #87CEFA;
+    background: #fff url(../img/arrow_reset.png) center/24px 24px no-repeat ;
+}
+
+.mainContent{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 300px;
+    border: 1px solid #D3D3D3;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px 15px 5px 15px;
+}
+
+.cardHeader{
+    display: flex;
+}
+
+.foto{
+    width: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.foto img{
+    max-width: 100px;
+}
+
+.cardHeaderInfo{
+    padding-top: 20px;
+}
+
+.name{
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+
+.gender{
+    padding: 10px 0 10px 40px;
+    position: relative;
+    border-bottom: 1px solid #D3D3D3;
+}
+
+.gender::before{
+    content: url(../img/gender.png);
+    position: absolute;
+    top: 6px;
+    left: 0;
+}
+
+.balance{
+    padding: 10px 0 10px 40px;
+    position: relative;
+}
+
+.balance::before{
+    content: url(../img/balance.png);
+    position: absolute;
+    top: 6px;
+    left: 0;
+}
